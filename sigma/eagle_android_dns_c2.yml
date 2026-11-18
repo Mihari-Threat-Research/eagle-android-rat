@@ -1,0 +1,22 @@
+title: Eagle Android RAT - Resolucion DNS de los servidores C2
+id: 10cafb29-0558-489d-8c84-f5ce784f0188
+status: experimental
+description: Detecta consultas DNS a los dos servidores C2 configurados en server_config.json de las muestras com.smart.zero.app (perfil A rat.668866.net, perfil B yk.mormonfind.com).
+references:
+    - https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html
+author: Mihari Threat Research
+date: 2026-11-18
+tags:
+    - attack.command-and-control
+    - attack.t1071.004
+logsource:
+    category: dns
+detection:
+    selection:
+        query|endswith:
+            - 'rat.668866.net'
+            - 'yk.mormonfind.com'
+    condition: selection
+falsepositives:
+    - Ninguno conocido. Verificar con DNS pasivo antes de bloquear en produccion.
+level: high

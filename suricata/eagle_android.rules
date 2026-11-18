@@ -1,0 +1,18 @@
+# Mihari Threat Research - Eagle Android RAT (TLP:CLEAR) - 2026-11-18
+# Ref: https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html
+# SID 1000201-1000206 (bloque Eagle Android: 1000201-1000299)
+#
+# Dominios C2 extraidos de assets/server_config.json (campo serverUrl, esquema https).
+# La regla HTTP solo dispara si el trafico va en claro o hay inspeccion TLS con terminacion.
+
+alert dns $HOME_NET any -> any any (msg:"MIHARI Eagle Android RAT - DNS query a C2 rat.668866.net (perfil A)"; dns.query; dotprefix; content:".rat.668866.net"; endswith; nocase; reference:url,mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html; classtype:trojan-activity; sid:1000201; rev:1; metadata:author Mihari_Threat_Research, created_at 2026_11_18, confidence High;)
+
+alert tls $HOME_NET any -> $EXTERNAL_NET any (msg:"MIHARI Eagle Android RAT - TLS SNI hacia C2 rat.668866.net (perfil A)"; flow:established,to_server; tls.sni; dotprefix; content:".rat.668866.net"; endswith; nocase; reference:url,mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html; classtype:trojan-activity; sid:1000202; rev:1; metadata:author Mihari_Threat_Research, created_at 2026_11_18, confidence High;)
+
+alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"MIHARI Eagle Android RAT - HTTP Host C2 rat.668866.net (perfil A)"; flow:established,to_server; http.host; dotprefix; content:".rat.668866.net"; endswith; nocase; reference:url,mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html; classtype:trojan-activity; sid:1000203; rev:1; metadata:author Mihari_Threat_Research, created_at 2026_11_18, confidence High;)
+
+alert dns $HOME_NET any -> any any (msg:"MIHARI Eagle Android RAT - DNS query a C2 yk.mormonfind.com (perfil B)"; dns.query; dotprefix; content:".yk.mormonfind.com"; endswith; nocase; reference:url,mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html; classtype:trojan-activity; sid:1000204; rev:1; metadata:author Mihari_Threat_Research, created_at 2026_11_18, confidence High;)
+
+alert tls $HOME_NET any -> $EXTERNAL_NET any (msg:"MIHARI Eagle Android RAT - TLS SNI hacia C2 yk.mormonfind.com (perfil B)"; flow:established,to_server; tls.sni; dotprefix; content:".yk.mormonfind.com"; endswith; nocase; reference:url,mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html; classtype:trojan-activity; sid:1000205; rev:1; metadata:author Mihari_Threat_Research, created_at 2026_11_18, confidence High;)
+
+alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"MIHARI Eagle Android RAT - HTTP Host C2 yk.mormonfind.com (perfil B)"; flow:established,to_server; http.host; dotprefix; content:".yk.mormonfind.com"; endswith; nocase; reference:url,mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html; classtype:trojan-activity; sid:1000206; rev:1; metadata:author Mihari_Threat_Research, created_at 2026_11_18, confidence High;)

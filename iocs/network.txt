@@ -1,0 +1,6 @@
+# Eagle Android RAT - Mihari Threat Research - TLP:CLEAR
+# tipo<TAB>valor (sin defang)
+domain	rat.668866.net
+domain	yk.mormonfind.com
+url	https://rat.668866.net
+url	https://yk.mormonfind.com

@@ -1,0 +1,17 @@
+matrix,tactic,technique_id,technique,evidence,status
+mobile,Collection; Credential Access,T1453,Abuse Accessibility Features,"Servicio PlatformAssistDaemon con gestos, lectura de pantalla y captura declarados",observed
+mobile,Collection; Credential Access,T1417.001,Input Capture: Keylogging,Clase KeylogCapture y orden KEYLOG_START,observed
+mobile,Credential Access; Collection,T1417.002,Input Capture: GUI Input Capture,"CredentialPromptActivity, falsos dialogos biometricos y WebPayloadPage",observed
+mobile,Collection,T1513,Screen Capture,Atributo canTakeScreenshot y ordenes de captura y transmision,observed
+mobile,Defense Evasion; Impact,T1516,Input Injection,Atributo canPerformGestures y automatizacion de la interfaz por accesibilidad,observed
+mobile,Discovery,T1418,Software Discovery,Permiso QUERY_ALL_PACKAGES y listas de apps bancarias y cripto,observed
+mobile,Privilege Escalation,T1626.001,Abuse Elevation Control Mechanism: Device Administrator Permissions,AdminEventReceiver y orden ACTIVATE_ADMIN de z/Fix49 (solo Juego),observed
+mobile,Impact,T1582,SMS Control,"Permisos de SMS y ordenes de lectura, envio y envio masivo",observed
+mobile,Defense Evasion,T1628.001,Hide Artifacts: Suppress Application Icon,"WebEntryActivity sin CATEGORY_LAUNCHER en cupid.apk, ROOH-TV.apk y 123.apk; orden HIDE_APP",observed
+mobile,Defense Evasion,T1655.001,Masquerading: Match Legitimate Name or Location,app_loading_bg.png imita a IndonesianCupid; fachadas de juego y TV,observed
+mobile,Collection; Credential Access,T1517,Access Notifications,"NotificationListener con listas de mensajeria, pagos y criptomonedas",observed
+mobile,Collection,T1636.004,Protected User Data: SMS Messages,Permiso READ_SMS y orden CMD_SMS_READ,observed
+mobile,Persistence,T1624.001,Event Triggered Execution: Broadcast Receivers,BootReceiver con prioridad 999 y KeepAliveWidgetProvider,observed
+mobile,Defense Evasion,T1406,Obfuscated Files or Information,Protector NMMP (1.128 metodos native) y libmedia_codec.so empaquetada,observed
+mobile,Command and Control,T1437.001,Application Layer Protocol: Web Protocols,serverUrl con esquema https en server_config.json (Nueva en el repositorio; no figura en la tabla del blog),observed
+mobile,Collection; Credential Access,T1414,Clipboard Data,KeylogCapture lee el contenido del portapapeles (Nueva en el repositorio; no figura en la tabla del blog),observed

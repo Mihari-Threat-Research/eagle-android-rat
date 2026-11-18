@@ -1,0 +1,1149 @@
+{
+  "type": "bundle",
+  "id": "bundle--f171cee6-6e42-51da-9a44-a6783cc7b0ee",
+  "objects": [
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-10-27T00:00:00.000Z",
+      "modified": "2026-10-27T00:00:00.000Z",
+      "name": "Mihari Threat Research",
+      "identity_class": "organization",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b973b934-cae9-5304-95ed-7b89f9e6226b",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "APK Juego (游戏.apk), nucleo A, C2 rat.668866.net",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = 'f68e48ff4d145c69716967410ee561d8f4176b705ccb88d51bb5671c3706598f']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--22d6231f-368c-5e2c-a112-d9ed1250c15b",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "APK cupid.apk, nucleo B, fachada de citas IndonesianCupid",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = 'e48b11177c452fe5543ec58393ccb3702956d662523ca9b50e7960f8574b8806']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--39fef355-5585-5e60-b3a7-d52feafdb590",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "APK ROOH-TV.apk, nucleo B, fachada de TV",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = '5e7488c425f6532af5b016e099fd82fd66cf59a6564ada57202016ac04b45b92']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6db18b5b-5289-5e78-8bc9-88ceca94615d",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "APK 123.apk, nucleo B, recursos de cupid.apk y configuracion de ROOH-TV.apk",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = '0dfb2c609d6f452bacbf7d240e69bbee7cc65c6b285d0155d5cd816e1347760b']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--87e3103b-f86a-5c0c-9d0a-9e0b610f7701",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha1",
+      "description": "APK Juego (游戏.apk)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-1' = '52c4ccf943893e02f3bf7a0bf535146e7be29266']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--58102427-f421-5530-8263-1a88e0eb1a0c",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha1",
+      "description": "APK cupid.apk",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-1' = '18bfaac7af9bda7d666044ad57a403c2e4c0c76c']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--592cba81-d3e4-5c03-8494-9c79b6658aa7",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha1",
+      "description": "APK ROOH-TV.apk",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-1' = '0ceac27fcfcb56ee326c798bea58f85177cf4766']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2206f8ca-8dce-56d2-8b0f-b39600de74a3",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha1",
+      "description": "APK 123.apk",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-1' = 'adabb0e5f20f1519742875ce0e98d93a964b03cf']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9957c12f-1de8-5b42-9a4c-c0a3b3a0c216",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: md5",
+      "description": "APK Juego (游戏.apk)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'MD5' = '91681a24fce58d15e17eb6c3a6df6375']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b4ef50b7-3f2e-5e78-acb3-5a590372999a",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: md5",
+      "description": "APK cupid.apk",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'MD5' = '18218092c996b5a4341569dfe62e6cb2']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6a26202b-0e8c-5597-9185-5001d2804d50",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: md5",
+      "description": "APK ROOH-TV.apk",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'MD5' = 'f19d8af8e5ae77288f850b9083661a0a']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7cd5ebcb-4c0b-596a-9edb-c684d1f7b9af",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: md5",
+      "description": "APK 123.apk",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'MD5' = 'f1c866d21c92003b4e10eb418efae3f0']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3f9ba164-6d66-5946-b874-f286af92a0db",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: cert_sha256",
+      "description": "Certificado autofirmado compartido por las cuatro muestras (CN=TeeEd Local, creado 2026-09-22)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[x509-certificate:hashes.'SHA-256' = '36fe21c231e424ebd2ee54ff079104d93f6068d7836592c8e0577400c49be293']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8180910e-72f6-5627-baea-67e3b8082309",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: cert_sha1",
+      "description": "Certificado autofirmado compartido por las cuatro muestras",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[x509-certificate:hashes.'SHA-1' = 'da968907f308fef2213946cd087db7466b1264b4']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7a54bb54-037c-575f-a325-409f269bb477",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "classes.dex, nucleo A (Juego (游戏.apk))",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = '6ba19cca1b6f0e666d6e303633adae10b0bc0f014692657abcbfe68fdc654b0c']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--19d6bd97-c755-56ba-b843-73a8a5da0668",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "classes2.dex, nucleo A (Juego (游戏.apk))",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = 'd0ee2f44ef3177f56ba41bcbe91d30a577462a9edc870657236e01cbe37c24eb']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3e4ecc1c-7bfa-5951-a040-4b7272ea3738",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "classes.dex, nucleo B (cupid.apk, ROOH-TV.apk, 123.apk)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = 'b1a9b146c90678107e1416cdeb2271f42e053db04fa17048b67bb2bbbb8c047f']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--06476354-1dcf-5e8b-88fe-4f2b3090bb88",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "classes2.dex, nucleo B (cupid.apk, ROOH-TV.apk, 123.apk)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = '4945b0ffd51514d919c0c3fcec6104e31e1f21d6a2946a434a3730b45d1c9cde']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--41ae233b-937a-563d-8482-a3502b20088e",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "lib/arm64-v8a/libdxs.so, binario Go con plantillas ADB (identico 4/4)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = '2c1c144b2be9f242fe68e0a17f36dfb3a698622a2b391ded222e1d021365f33b']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f89a6006-c8db-527a-8427-c31e66f3c3cf",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "lib/arm64-v8a/libmedia_codec.so, binario Go empaquetado (identico 4/4)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = 'cfee76ec4317473dd84bc05c76dc2477687315d5ca664faa55f4c929a1a12370']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--156ac5af-364d-5baa-aba2-ecfdda8cd44f",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "assets/locateValues.json, diccionario de 38 idiomas (identico 4/4)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = 'f874f8467a8e20732532ed5b19a289d6f35c68e9fc46f6e17d55a7bd82753eaa']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9ff767cd-d22a-59f9-b910-a6c4dc339dfd",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "assets/app_config.json, mensajes de los falsos dialogos (identico 4/4)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = 'c1c317315bd6dff1309cfbf13481aab340285356dfe731b70eec8e1dbb902e47']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--dd156a25-768f-5c9e-a81e-ce821bf437a1",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "assets/server_config.json, perfil A (Juego (游戏.apk))",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = '4b6d1c55a7422ae1f3c5a33773d3891ae2a1bf87cbc045a3b9967ffcb4a43f72']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8c3a2eac-4d3e-56d9-9704-215e9c9c656b",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "assets/server_config.json, perfil B (cupid.apk)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = '2cc5f6f7764789e3625946c712d121e6e722bc20b149600ca9fa1be5701e1ecb']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b146e20e-3984-53c9-bf61-c63acee7e905",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "assets/server_config.json, perfil B (ROOH-TV.apk y 123.apk, identico)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = '4186ed0bbfb747ce6f7c9e665a8ed59830172676b1b77f46540b7b5c44b6c786']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9f7402cb-e5ad-5d5b-bdbb-6254fd39a4f3",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "lib/arm64-v8a/libspake2.so, soporte SPAKE2 para ADB. Componente de terceros, no exclusivo: solo correlacion",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = '3c0a305a22c34ed84ff2256ca16ad6eeba6172ca6cedfda625be7aa72f3b76b4']",
+      "pattern_type": "stix",
+      "confidence": 30,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2b792772-5320-563c-836a-9b18373c8d07",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "lib/arm64-v8a/libnmmp.so, protector NMMP. Componente de terceros, no exclusivo: solo correlacion",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = '53488cbcfc18f10c1a631329cdcfcea0f400195617580bf35ed7ac21a2d287be']",
+      "pattern_type": "stix",
+      "confidence": 30,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--15d865d2-9773-5bb9-81e5-ef8dacd13df4",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: sha256",
+      "description": "lib/arm64-v8a/libnmmvm.so, maquina virtual NMMP. Componente de terceros, no exclusivo: solo correlacion",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[file:hashes.'SHA-256' = '597652e10ac176513e1ad74bdbef4b1cb54ebc4e8b7f7c11937d0d91f7eebc8f']",
+      "pattern_type": "stix",
+      "confidence": 30,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--379c40a9-845f-5568-9f60-f62cbe09388e",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: domain",
+      "description": "Servidor C2 (serverUrl) del perfil A, Juego (游戏.apk)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'rat.668866.net']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--16d0fb8d-1135-54a7-af36-c98e77a5781a",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: domain",
+      "description": "Servidor C2 (serverUrl) del perfil B, cupid.apk, ROOH-TV.apk y 123.apk",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'yk.mormonfind.com']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c0cc8a49-eb6c-5948-b9b6-776c22cd99a5",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: url",
+      "description": "serverUrl del perfil A (Juego (游戏.apk))",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://rat.668866.net']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--842ca148-8350-5562-8427-f6116c74033d",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: url",
+      "description": "serverUrl del perfil B",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://yk.mormonfind.com']",
+      "pattern_type": "stix",
+      "confidence": 85,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3187f5cd-ceac-5d7b-aee9-08a3119a7276",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: domain",
+      "description": "URL de cobertura (webUrl) de Juego (游戏.apk). Indicador contextual, verificar antes de bloquear",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'dace666.xyz']",
+      "pattern_type": "stix",
+      "confidence": 30,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--399e1d31-1665-556d-af2a-7e9ab34b5f89",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: package_name",
+      "description": "Package ID compartido por las cuatro muestras. Correlacionar con certificado o YARA",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[software:x_android_package = 'com.smart.zero.app']",
+      "pattern_type": "stix",
+      "confidence": 60,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--02a6a7b4-ac6b-55c6-afd2-0715b220638a",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: file_name",
+      "description": "Fichero local de inyecciones creado por saveInjectConfigs() en el nucleo A",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:name = 'injection_configs.json']",
+      "pattern_type": "stix",
+      "confidence": 60,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--951d1aef-6f78-55a9-9700-8bf2e104ae18",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: file_path",
+      "description": "Cortina de pantalla con falsa actualizacion de Android",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:name = 'overlay_android_update.xml']",
+      "pattern_type": "stix",
+      "confidence": 60,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bf679904-d45a-5e8a-820e-d9d8797e7e95",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: file_path",
+      "description": "Falso dialogo de huella",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:name = 'overlay_fingerprint.xml']",
+      "pattern_type": "stix",
+      "confidence": 60,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6bcb8c6b-676a-5a0f-a6d5-f0dc38529fd4",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: file_path",
+      "description": "Falso dialogo de reconocimiento facial",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:name = 'overlay_face.xml']",
+      "pattern_type": "stix",
+      "confidence": 60,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bb70d0ba-bde0-5b8c-b2fa-6efa3d890be1",
+      "created_by_ref": "identity--e981ab8a-df7a-5b27-8842-38f8503abb3f",
+      "created": "2026-11-17T00:00:00.000Z",
+      "modified": "2026-11-17T00:00:00.000Z",
+      "valid_from": "2026-11-17T00:00:00.000Z",
+      "name": "eagle-android-rat: file_path",
+      "description": "Widget de persistencia (updatePeriodMillis 1800000)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:name = 'keepalive_widget_info.xml']",
+      "pattern_type": "stix",
+      "confidence": 60,
+      "labels": [
+        "eagle-android-rat"
+      ],
+      "external_references": [
+        {
+          "source_name": "Mihari Intelligence Blog",
+          "url": "https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# Eagle Android RAT - Mihari Threat Research - TLP:CLEAR
+# tipo<TAB>valor (sin defang)
+string	CN=TeeEd Local, OU=Build, O=Local, L=SZ, ST=GD, C=CN
+package_name	com.smart.zero.app
+string	4bdbb100f8575d7471e86c6aaa5504bc
+string	fa50709080bc630f92b92dd2e8268fcd
+string	dace666
+string	ykadmin
+string	Lz/Fix49;
+string	FIX49INJ
+file_name	injection_configs.json
+string	Lcom/smart/zero/view/service/PlatformAssistDaemon;
+string	Lcom/smart/zero/view/features/dxs/DxsSetupFlow;
+string	Lcom/smart/zero/view/features/credential/CredentialPromptActivity;
+string	Lcom/smart/zero/view/inject/WebPayloadPage;
+file_path	res/layout/overlay_android_update.xml
+file_path	res/layout/overlay_fingerprint.xml
+file_path	res/layout/overlay_face.xml
+file_path	res/xml/keepalive_widget_info.xml

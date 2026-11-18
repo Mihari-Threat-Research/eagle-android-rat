@@ -1,0 +1,52 @@
+type,value,context,confidence,first_seen
+sha256,f68e48ff4d145c69716967410ee561d8f4176b705ccb88d51bb5671c3706598f,"APK Juego (游戏.apk), nucleo A, C2 rat.668866.net",high,2026-11-17
+sha256,e48b11177c452fe5543ec58393ccb3702956d662523ca9b50e7960f8574b8806,"APK cupid.apk, nucleo B, fachada de citas IndonesianCupid",high,2026-11-17
+sha256,5e7488c425f6532af5b016e099fd82fd66cf59a6564ada57202016ac04b45b92,"APK ROOH-TV.apk, nucleo B, fachada de TV",high,2026-11-17
+sha256,0dfb2c609d6f452bacbf7d240e69bbee7cc65c6b285d0155d5cd816e1347760b,"APK 123.apk, nucleo B, recursos de cupid.apk y configuracion de ROOH-TV.apk",high,2026-11-17
+sha1,52c4ccf943893e02f3bf7a0bf535146e7be29266,APK Juego (游戏.apk),high,2026-11-17
+sha1,18bfaac7af9bda7d666044ad57a403c2e4c0c76c,APK cupid.apk,high,2026-11-17
+sha1,0ceac27fcfcb56ee326c798bea58f85177cf4766,APK ROOH-TV.apk,high,2026-11-17
+sha1,adabb0e5f20f1519742875ce0e98d93a964b03cf,APK 123.apk,high,2026-11-17
+md5,91681a24fce58d15e17eb6c3a6df6375,APK Juego (游戏.apk),high,2026-11-17
+md5,18218092c996b5a4341569dfe62e6cb2,APK cupid.apk,high,2026-11-17
+md5,f19d8af8e5ae77288f850b9083661a0a,APK ROOH-TV.apk,high,2026-11-17
+md5,f1c866d21c92003b4e10eb418efae3f0,APK 123.apk,high,2026-11-17
+cert_sha256,36fe21c231e424ebd2ee54ff079104d93f6068d7836592c8e0577400c49be293,"Certificado autofirmado compartido por las cuatro muestras (CN=TeeEd Local, creado 2026-09-22)",high,2026-11-17
+cert_sha1,da968907f308fef2213946cd087db7466b1264b4,Certificado autofirmado compartido por las cuatro muestras,high,2026-11-17
+string,"CN=TeeEd Local, OU=Build, O=Local, L=SZ, ST=GD, C=CN",Subject del certificado de firma (firma por defecto del constructor),medium,2026-11-17
+sha256,6ba19cca1b6f0e666d6e303633adae10b0bc0f014692657abcbfe68fdc654b0c,"classes.dex, nucleo A (Juego (游戏.apk))",high,2026-11-17
+sha256,d0ee2f44ef3177f56ba41bcbe91d30a577462a9edc870657236e01cbe37c24eb,"classes2.dex, nucleo A (Juego (游戏.apk))",high,2026-11-17
+sha256,b1a9b146c90678107e1416cdeb2271f42e053db04fa17048b67bb2bbbb8c047f,"classes.dex, nucleo B (cupid.apk, ROOH-TV.apk, 123.apk)",high,2026-11-17
+sha256,4945b0ffd51514d919c0c3fcec6104e31e1f21d6a2946a434a3730b45d1c9cde,"classes2.dex, nucleo B (cupid.apk, ROOH-TV.apk, 123.apk)",high,2026-11-17
+sha256,2c1c144b2be9f242fe68e0a17f36dfb3a698622a2b391ded222e1d021365f33b,"lib/arm64-v8a/libdxs.so, binario Go con plantillas ADB (identico 4/4)",high,2026-11-17
+sha256,cfee76ec4317473dd84bc05c76dc2477687315d5ca664faa55f4c929a1a12370,"lib/arm64-v8a/libmedia_codec.so, binario Go empaquetado (identico 4/4)",high,2026-11-17
+sha256,f874f8467a8e20732532ed5b19a289d6f35c68e9fc46f6e17d55a7bd82753eaa,"assets/locateValues.json, diccionario de 38 idiomas (identico 4/4)",high,2026-11-17
+sha256,c1c317315bd6dff1309cfbf13481aab340285356dfe731b70eec8e1dbb902e47,"assets/app_config.json, mensajes de los falsos dialogos (identico 4/4)",high,2026-11-17
+sha256,4b6d1c55a7422ae1f3c5a33773d3891ae2a1bf87cbc045a3b9967ffcb4a43f72,"assets/server_config.json, perfil A (Juego (游戏.apk))",high,2026-11-17
+sha256,2cc5f6f7764789e3625946c712d121e6e722bc20b149600ca9fa1be5701e1ecb,"assets/server_config.json, perfil B (cupid.apk)",high,2026-11-17
+sha256,4186ed0bbfb747ce6f7c9e665a8ed59830172676b1b77f46540b7b5c44b6c786,"assets/server_config.json, perfil B (ROOH-TV.apk y 123.apk, identico)",high,2026-11-17
+sha256,3c0a305a22c34ed84ff2256ca16ad6eeba6172ca6cedfda625be7aa72f3b76b4,"lib/arm64-v8a/libspake2.so, soporte SPAKE2 para ADB. Componente de terceros, no exclusivo: solo correlacion",low,2026-11-17
+sha256,53488cbcfc18f10c1a631329cdcfcea0f400195617580bf35ed7ac21a2d287be,"lib/arm64-v8a/libnmmp.so, protector NMMP. Componente de terceros, no exclusivo: solo correlacion",low,2026-11-17
+sha256,597652e10ac176513e1ad74bdbef4b1cb54ebc4e8b7f7c11937d0d91f7eebc8f,"lib/arm64-v8a/libnmmvm.so, maquina virtual NMMP. Componente de terceros, no exclusivo: solo correlacion",low,2026-11-17
+domain,rat.668866.net,"Servidor C2 (serverUrl) del perfil A, Juego (游戏.apk)",high,2026-11-17
+domain,yk.mormonfind.com,"Servidor C2 (serverUrl) del perfil B, cupid.apk, ROOH-TV.apk y 123.apk",high,2026-11-17
+url,https://rat.668866.net,serverUrl del perfil A (Juego (游戏.apk)),high,2026-11-17
+url,https://yk.mormonfind.com,serverUrl del perfil B,high,2026-11-17
+domain,dace666.xyz,"URL de cobertura (webUrl) de Juego (游戏.apk). Indicador contextual, verificar antes de bloquear",low,2026-11-17
+package_name,com.smart.zero.app,Package ID compartido por las cuatro muestras. Correlacionar con certificado o YARA,medium,2026-11-17
+string,4bdbb100f8575d7471e86c6aaa5504bc,deviceKeySalt del perfil A (Juego (游戏.apk)),high,2026-11-17
+string,fa50709080bc630f92b92dd2e8268fcd,deviceKeySalt del perfil B,high,2026-11-17
+string,dace666,ownerUsername del perfil A (Juego (游戏.apk)),medium,2026-11-17
+string,ykadmin,ownerUsername del perfil B,medium,2026-11-17
+string,Lz/Fix49;,Clase Dalvik exclusiva del nucleo A (Juego (游戏.apk)),high,2026-11-17
+string,FIX49INJ,Etiqueta de log de z/Fix49 (Juego (游戏.apk)),high,2026-11-17
+file_name,injection_configs.json,Fichero local de inyecciones creado por saveInjectConfigs() en el nucleo A,medium,2026-11-17
+string,Lcom/smart/zero/view/service/PlatformAssistDaemon;,Servicio de accesibilidad principal (nucleos A y B),high,2026-11-17
+string,Lcom/smart/zero/view/features/dxs/DxsSetupFlow;,Flujo de emparejamiento ADB inalambrico (nucleos A y B),high,2026-11-17
+string,Lcom/smart/zero/view/features/credential/CredentialPromptActivity;,Falsos dialogos biometricos para robar el PIN (nucleos A y B),high,2026-11-17
+string,Lcom/smart/zero/view/inject/WebPayloadPage;,Pagina de inyeccion HTML sobre apps bancarias (nucleos A y B),high,2026-11-17
+file_path,res/layout/overlay_android_update.xml,Cortina de pantalla con falsa actualizacion de Android,medium,2026-11-17
+file_path,res/layout/overlay_fingerprint.xml,Falso dialogo de huella,medium,2026-11-17
+file_path,res/layout/overlay_face.xml,Falso dialogo de reconocimiento facial,medium,2026-11-17
+file_path,res/xml/keepalive_widget_info.xml,Widget de persistencia (updatePeriodMillis 1800000),medium,2026-11-17
+string,deepseek-v4-flash,"aiModel en server_config.json (bloque de IA inactivo, aiApiKey vacia)",low,2026-11-17

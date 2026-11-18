@@ -1,0 +1,22 @@
+title: Eagle Android RAT - Conexion web a los servidores C2 (proxy)
+id: 25e22af9-e601-4d24-b60c-1354cfccd60c
+status: experimental
+description: Detecta trafico web hacia los servidores C2 configurados en las muestras com.smart.zero.app. El constructor inyecta la URL con esquema https, por lo que el host se observa en proxies con inspeccion o en el SNI.
+references:
+    - https://mihari-intelligence.blogspot.com/2026/11/buscabas-amor-asia-match-malware-cuatro-apk-dos-nucleos-dex.html
+author: Mihari Threat Research
+date: 2026-11-18
+tags:
+    - attack.command-and-control
+    - attack.t1071.001
+logsource:
+    category: proxy
+detection:
+    selection:
+        cs-host|endswith:
+            - 'rat.668866.net'
+            - 'yk.mormonfind.com'
+    condition: selection
+falsepositives:
+    - Ninguno conocido. Verificar con DNS pasivo antes de bloquear en produccion.
+level: high
